@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <img tabindex="0" class="header__img" src="./assets/images/icono2.png" alt="Automation icon">
+    </header>
+    <section class="login">
+        <div class="login__container">
+            <h2 tabindex="0">Iniciar sesión</h2>
+            <form class="login__container--form">
+                <input aria-label="Ingresa tu nombre" class="input-login" type="text" placeholder="Nombre">
+                <input aria-label="Ingresa la contraseña" class="input-login" type="password" placeholder="Contraseña">
+                <button class="button">Iniciar sesión</button>
+                <div class="login__container--remember-me">
+                    <label>
+                        <input aria-label="Checkbox para recordar usuario" type="checkbox" id="cbox1" value="checkbox"> Recuérdame
+                    </label>
+                    <a aria-label="Olvidé mi contraseña" href="/">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <div class="login__container--social-media">
+                <div><img src="./assets/images/google-icon.png" alt="Google">Iniciar sesión con Google</div>
+                <div><img src="./assets/images/twitter-icon.png" alt="Twitter">Iniciar sesión con Twitter</div>
+            </div>
+            <div>
+                <p class="login__container--register">No tienes cuenta? <a href="/">&nbsp; Regístrate</a></p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <a href="/">Términos de uso</a>
+        <a href="/">Declaración de privacidad</a>
+        <a href="/">Centro de ayuda</a>
+    </footer>
+</body>
+</html>
